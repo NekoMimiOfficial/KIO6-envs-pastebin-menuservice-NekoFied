@@ -2,6 +2,9 @@
 This simple servicemenu allows you to upload any image of choice to the envs.sh file null ptr just by right clicking  
 It's a one simple script that does it, there's unlikely any updates to this script  
   
+!> [!IMPORTANT]
+> Somehow envs.sh went down immediately after i pushed the last commit so im switching it to 0x0.st, it's weird  
+  
 # Installation  
 Make sure you have the following dependencies before proceeding:  
 - xclip  

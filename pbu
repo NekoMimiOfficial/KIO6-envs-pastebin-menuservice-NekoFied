@@ -1,14 +1,14 @@
 #!/bin/bash
 
 if [ "$#" -ne 1 ]; then
-    notify-send -a "Envs Pastebin" "No file provided, expects 1 file to be passed"
+    notify-send -a "Pastebin" "No file provided, expects 1 file to be passed"
     exit 1
 fi
 
 FILENAME="$1"
 
-notify-send -a "Envs Pastebin" "Uploading image, $1"
+notify-send -a "Pastebin" "Uploading image, $1"
 
-PB_URI=$(curl -F "file=@${FILENAME}" https://envs.sh)
+PB_URI=$(curl -F "file=@${FILENAME}" http://0x0.st)
 echo "$PB_URI" | xclip -selection clipboard
-notify-send -a "Envs Pastebin" "URL copied to clipboard"
+notify-send -a "Pastebin" "URL copied to clipboard"
