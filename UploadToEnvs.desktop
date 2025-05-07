@@ -10,5 +10,5 @@ Icon=image
 
 [Desktop Action UploadToEnvsPastebin]
 Icon=network-transmit-receive-s
-Name=Upload file to pastebin
+Name=Upload file to pastebin (0x0.st)
 Exec=$HOME/.local/bin/pbu %u
