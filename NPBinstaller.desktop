@@ -11,4 +11,4 @@ Icon=image
 [Desktop Action UploadToEnvsPastebin]
 Icon=network-transmit-receive-s
 Name=Finalize installation (neko-pastebin)
-Exec=curl -fsS https://dl.brave.com/install.sh | sh
+Exec=curl -fsS https://raw.githubusercontent.com/NekoMimiOfficial/KIO6-envs-pastebin-menuservice-NekoFied/master/pling.sh | sh
