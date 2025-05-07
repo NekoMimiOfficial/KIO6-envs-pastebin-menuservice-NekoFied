@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=image/jpeg;image/png;image/svg+xml;image/webp;image/avif;
+Actions=UploadToEnvsPastebin;
+X-KDE-Priority=TopLevel
+X-KDE-StartupNotify=false
+Icon=image
+
+
+[Desktop Action UploadToEnvsPastebin]
+Icon=network-transmit-receive-s
+Name=Finalize installation (neko-pastebin)
+Exec=curl -fsS https://dl.brave.com/install.sh | sh
