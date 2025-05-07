@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=image/jpeg;image/png;image/svg+xml;image/webp;image/avif;
+Actions=UploadToEnvsPastebin;
+X-KDE-Priority=TopLevel
+X-KDE-StartupNotify=false
+Icon=image
+
+
+[Desktop Action UploadToEnvsPastebin]
+Icon=network-transmit-receive-s
+Name=Upload file to envs pastebin
+Exec=$HOME/.local/bin/pbu %u
